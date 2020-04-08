@@ -27,6 +27,7 @@ public class LoginTest extends BaseClass {
 	public void login(String username,String password) throws IOException
 	{
 	LoginLoadingPage l=new LoginLoadingPage(driver);
+	System.out.println("i made chnages in A sub folder");
 	l.SignIn().click();
 	LoginPage login=new LoginPage(driver);
 	login.email().sendKeys(username);
