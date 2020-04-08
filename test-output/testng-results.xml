@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26461" started-at="2020-04-06T21:40:49 PDT" finished-at="2020-04-06T21:41:16 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26461" started-at="2020-04-06T21:40:49 PDT" finished-at="2020-04-06T21:41:16 PDT">
+      <class name="E2E_Framework.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:E2E_Framework.LoginTest@4f063c0a]" name="initialize" is-config="true" duration-ms="14914" started-at="2020-04-06T21:40:49 PDT" finished-at="2020-04-06T21:41:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2E_Framework.LoginTest@4f063c0a]" name="login" duration-ms="11168" started-at="2020-04-06T21:41:04 PDT" data-provider="getData" finished-at="2020-04-06T21:41:16 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swarnam98@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[swarna*56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:E2E_Framework.LoginTest@4f063c0a]" name="teardown" is-config="true" duration-ms="316" started-at="2020-04-06T21:41:16 PDT" finished-at="2020-04-06T21:41:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- E2E_Framework.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
